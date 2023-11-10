@@ -1,0 +1,336 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* nav */
+     .navlinks ul{
+        flex-direction: column;
+        width: fit-content;
+        margin: auto;
+    }
+    .navbar .container{
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .navbar i{
+        padding-block: 20px;
+    }
+    /* home */
+    .homeContent{
+        flex-direction: column-reverse;
+    }
+    .homeContent .homeImg , .homeContent .homeTxt{
+        text-align: center;
+        width: 100%;
+        
+    }
+    .homeContent .homeTxt{
+        align-items: center;
+    }
+    .homeTxt h2 , .homeTxt p{
+        width: 100%;
+    }
+    /* chef  */
+    .chefs{
+        flex-wrap: wrap;
+        row-gap: 40px;
+    }
+    .chefCard{
+        width: 100%;
+    }
+    /* gallery */
+    .photoGallery{
+        columns: 1;
+    }
+    
+    /* contact */
+    .contactInfo{
+        flex-direction: column;
+    }
+    .infoItem{
+        width: 100%;
+    }
+    form{
+        flex-direction: column;
+    }
+    input#name , input#email{
+        width:100%;
+    }
+    input , textarea{
+        padding: 8px;
+    }
+    #contact input:focus{
+    border: 3px solid red;   
+    outline: 0;
+    }
+    textarea:focus{
+        outline: 0;
+        border:3px solid red;
+    }
+    /* footer */
+    #footer .inner{
+        flex-direction: column;
+    }
+    .footerinfo{
+        width: 100%;
+    }
+    .subscripe input#email{
+        width: 100%;
+    
+    }
+    .subscripe button{
+        width: 100%;
+       
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+        /* nav */
+        .navlinks ul{
+            flex-direction: column;
+            width: fit-content;
+            margin: auto;
+        }
+        .navbar .container{
+            flex-direction: column;
+            text-align: center;
+            
+        }
+        .navbar i{
+            padding-block: 20px;
+        }
+        /* home */
+        .homeContent{
+            flex-direction: column-reverse;
+        }
+        .homeContent .homeImg , .homeContent .homeTxt{
+            text-align: center;
+            width: 80%;
+            
+        }
+        .homeContent .homeTxt{
+            align-items: center;
+        }
+        .homeTxt h2 , .homeTxt p{
+            width: 100%;
+        }
+        /* chef  */
+        .chefs{
+            flex-wrap: wrap;
+            row-gap: 40px;
+            justify-content: center;
+            row-gap: 40px;
+        }
+        .chefCard{
+            width: 80%;
+        }
+        /* gallery */
+        .photoGallery{
+            columns: 1;
+        }
+        /* contact */
+        .contactInfo{
+            flex-direction: column;
+            align-items: center;
+        }
+        .infoItem{
+            width: 80%;
+        }
+        form{
+            flex-direction: column;
+            width: 80%;
+            margin: auto;
+        }
+        input#name , input#email{
+            width:100%;
+        }
+        input , textarea{
+            padding: 8px;
+        }
+        #contact input:focus{
+        border: 3px solid red;   
+        outline: 0;
+        }
+        textarea:focus{
+            outline: 0;
+            border:3px solid red;
+        }
+        /* footer */
+        #footer .inner{
+            flex-direction: column;
+            align-items: center;
+        }
+        .footerinfo{
+            width: 80%;
+        }
+        .subscripe input#email{
+            width: 100%;
+        
+        }
+        .subscripe button{
+            width: 100%;
+           
+        }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+     /* nav */
+     .navlinks ul{
+        flex-direction: column;
+        width: fit-content;
+        margin: auto;
+    }
+    .navbar .container{
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .navbar i{
+        padding-block: 20px;
+    }
+    /* home */
+    .homeContent{
+        flex-direction: column-reverse;
+    }
+    .homeContent .homeImg , .homeContent .homeTxt{
+        text-align: center;
+        width: 80%;
+        
+    }
+    .homeContent .homeTxt{
+        align-items: center;
+    }
+    .homeTxt h2 , .homeTxt p{
+        width: 100%;
+    }
+    /* chef  */
+    .chefs{
+        flex-wrap: wrap;
+        row-gap: 40px;
+       
+        row-gap: 40px;
+        column-gap: 15px;
+    }
+    .chefCard{
+        width:45%;
+    }
+    /* gallery */
+    .photoGallery{
+        columns: 2;
+    }
+    /* contact */
+    /* .contactInfo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .infoItem{
+        width: 80%;
+    } */
+    form{
+        flex-direction: row;
+        width: 100%;
+        margin: auto;
+    }
+    input#name , input#email{
+        width:100%;
+    }
+    input , textarea{
+        padding: 8px;
+    }
+    #contact input:focus{
+    border: 3px solid red;   
+    outline: 0;
+    }
+    textarea:focus{
+        outline: 0;
+        border:3px solid red;
+    }
+    /* footer */
+    #footer .inner{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .footerinfo{
+        width: 50%;
+    }
+    .mealify{
+        order: 1;
+    }
+    .subscripe{
+        order: 3;
+        width: 100%;
+    }
+    .touch{
+        order:2 ;
+    }
+
+    .subscripe input#email{
+        width: 80%;
+    
+    }
+    .subscripe button{
+        width: 15%;
+       
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width : 1199px){
+    .homeTxt h2{
+        width: 100%;
+    }
+    form{
+        flex-direction: row;
+        width: 100%;
+        margin: auto;
+    }
+    input#name , input#email{
+        width:100%;
+    }
+    input , textarea{
+        padding: 8px;
+    }
+    #contact input:focus{
+    border: 3px solid red;   
+    outline: 0;
+    }
+    textarea:focus{
+        outline: 0;
+        border:3px solid red;
+    } 
+    /* footer */
+     #footer .inner{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .footerinfo{
+        width: 50%;
+    }
+    .mealify{
+        order: 1;
+    }
+    .subscripe{
+        order: 3;
+        width: 100%;
+    }
+    .touch{
+        order:2 ;
+    }
+
+    .subscripe input#email{
+        width: 80%;
+    
+    }
+    .subscripe button{
+        width: 15%;
+       
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
